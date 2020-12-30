@@ -28,9 +28,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/app/@theme/css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/@theme/js"
+            ]
           },
           "configurations": {
             "production": {
@@ -124,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "glorytech-website"
+  "defaultProject": "glorytech-website",
+  "cli": {
+    "analytics": "de28835b-21be-4e50-a3d7-ed48c06b9681"
+  }
 }
